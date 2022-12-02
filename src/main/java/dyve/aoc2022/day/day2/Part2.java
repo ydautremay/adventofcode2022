@@ -18,9 +18,9 @@ public class Part2 extends Part {
         Shape opponent = Shape.fromInput(input.substring(0, 1));
         Strategy strategy = Strategy.fromInput(input.substring(2));
         return switch (strategy){
-            case WIN -> 6 + opponent.losesTo().value;
-            case DRAW -> 3 + opponent.value;
-            case LOSE -> opponent.beats().value;
+            case WIN -> Shape.round(opponent.losesTo(), opponent);
+            case DRAW -> Shape.round(opponent, opponent);
+            case LOSE -> Shape.round(opponent.beats(), opponent);
         };
     }
 }
