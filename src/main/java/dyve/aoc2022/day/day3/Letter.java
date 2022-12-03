@@ -54,7 +54,7 @@ public enum Letter {
     Y(51),
     Z(52);
 
-    int value;
+    final int value;
 
     Letter(int value){
         this.value = value;
