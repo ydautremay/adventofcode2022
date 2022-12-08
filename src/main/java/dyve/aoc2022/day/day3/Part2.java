@@ -4,8 +4,6 @@ import dyve.aoc2022.day.Part;
 import dyve.aoc2022.input.InputReader;
 
 import java.util.List;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.stream.Collectors;
 
 public class Part2 extends Part {
 

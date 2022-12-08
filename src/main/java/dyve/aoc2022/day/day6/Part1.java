@@ -1,11 +1,7 @@
 package dyve.aoc2022.day.day6;
 
 import dyve.aoc2022.day.Part;
-import dyve.aoc2022.day.day1.Elf;
 import dyve.aoc2022.input.InputReader;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class Part1 extends Part {
 

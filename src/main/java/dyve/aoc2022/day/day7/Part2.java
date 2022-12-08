@@ -3,11 +3,7 @@ package dyve.aoc2022.day.day7;
 import dyve.aoc2022.day.Part;
 import dyve.aoc2022.input.InputReader;
 
-import java.util.HashSet;
 import java.util.Set;
-import java.util.concurrent.atomic.AtomicReference;
-import java.util.regex.Pattern;
-import java.util.stream.Collectors;
 
 public class Part2 extends Part {
 

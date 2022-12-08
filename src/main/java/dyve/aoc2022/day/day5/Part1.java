@@ -1,13 +1,9 @@
 package dyve.aoc2022.day.day5;
 
 import dyve.aoc2022.day.Part;
-import dyve.aoc2022.day.day1.Elf;
 import dyve.aoc2022.input.InputReader;
 
-import java.util.ArrayDeque;
-import java.util.ArrayList;
 import java.util.Deque;
-import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
